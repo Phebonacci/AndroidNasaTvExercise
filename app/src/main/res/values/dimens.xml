@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="horizontal_spacing" type="dimen" format="dimension">16dp</item>
+    <item name="vertical_spacing" type="dimen" format="dimension">16dp</item>
+
+    <!-- Splash Activity -->
+    <item name="logo_size" type="dimen" format="dimension">180dp</item>
+</resources>
