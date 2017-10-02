@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidNasaTV.iml" filepath="$PROJECT_DIR$/AndroidNasaTV.iml" />
+      <module fileurl="file://D:\Brain Snacks\Android\AndroidNasaTvExercise\AndroidNasaTV.iml" filepath="D:\Brain Snacks\Android\AndroidNasaTvExercise\AndroidNasaTV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidNasaTvExercise.iml" filepath="$PROJECT_DIR$/AndroidNasaTvExercise.iml" />
       <module fileurl="file://D:\Brain Food\Android\AndroidNasaTV\AndroidNasaTvExercise.iml" filepath="D:\Brain Food\Android\AndroidNasaTV\AndroidNasaTvExercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
