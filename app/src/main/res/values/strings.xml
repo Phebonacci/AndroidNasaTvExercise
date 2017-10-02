@@ -3,4 +3,5 @@
 
     <!-- Main Activity -->
     <string name="channel_not_ready">Please wait for NasaTV to connect.</string>
+    <string name="unable_to_connect">Unable to establish a connection to NASA Channel.</string>
 </resources>
