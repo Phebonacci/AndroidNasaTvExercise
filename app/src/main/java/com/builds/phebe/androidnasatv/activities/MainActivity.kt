@@ -18,7 +18,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
+import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.sdk25.coroutines.onClick
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity() {
@@ -101,7 +103,8 @@ class MainActivity : AppCompatActivity() {
                     toast (R.string.channel_not_ready)
                 }
                 ChannelStatus.LIVE.toString() -> {
-                    TODO("implement video activity")
+                    startActivity(intentFor<StreamActivity>(StreamActivity.EXTRA_STREAM_URL to channel?.stream?.hls))
+                    finish()
                 }
                 ChannelStatus.OFF_AIR.toString() -> {
                     establishChannelConnection()
